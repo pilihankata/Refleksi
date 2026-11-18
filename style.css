@@ -67,3 +67,16 @@ p.site-tagline {
     text-align: center;
     margin-top: 4px;
 }
+.hero-banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('tragedi.png');
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+}
