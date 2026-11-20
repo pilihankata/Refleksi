@@ -98,3 +98,11 @@ p.site-tagline {
 .hero-banner p {
     color: #d6cfc7; /* ganti dengan warna pilihan Anda untuk teks di bawahnya */
 }
+/* Ukuran nyaman dibaca di layar HP */
+@media (max-width: 600px) {
+  main article p {
+    font-size: 20px;
+    line-height: 1.65;
+    padding: 0 8px;
+  }
+}
