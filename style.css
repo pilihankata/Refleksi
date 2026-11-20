@@ -120,40 +120,31 @@ main article p {
   }
 }
 /* Membatasi lebar container agar bacaan dan gambar tidak terlalu melebar */
-main {
+.halaman-esai {
   max-width: 600px;
   margin: 0 auto;
   padding: 16px;
 }
 
-/* Mengatur gambar pada pos esai */
-main article img {
-  display: block;
-  width: 100%;
-  max-width: 250px;
-  height: auto;
-  margin: 14px auto 18px;
-  border-radius: 8px;
-}
-main article {
+.halaman-esai article {
   margin-bottom: 40px;
   padding-bottom: 24px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-main article h2 {
+.halaman-esai article h2 {
   line-height: 1.35;
   margin-bottom: 10px;
 }
 
-main article h2 a,
-main article p a {
+.halaman-esai article h2 a,
+.halaman-esai article p a {
   color: inherit;
   text-decoration: none;
 }
 
-main article h2 a:hover,
-main article p a:hover {
+.halaman-esai article h2 a:hover,
+.halaman-esai article p a:hover {
   text-decoration: underline;
 }
 @media (max-width: 600px) {
