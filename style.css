@@ -98,11 +98,20 @@ p.site-tagline {
 .hero-banner p {
     color: #d6cfc7; /* ganti dengan warna pilihan Anda untuk teks di bawahnya */
 }
+/* 1. Ukuran kutipan di layar laptop / desktop */
+main article p {
+  font-size: 20px;
+  font-family: lora, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+}
+
 /* Ukuran nyaman dibaca di layar HP */
 @media (max-width: 600px) {
   main article p {
     font-size: 18px;
-    font-family: merriweather, sans-serif;
+    font-family: lora, sans-serif;
     font-weight: 400;
     font-style: italic;
     line-height: 1.5;
