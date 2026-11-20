@@ -120,6 +120,7 @@ main article p {
   }
 }
 /* Membatasi lebar container agar bacaan dan gambar tidak terlalu melebar */
+<main class="halaman-esai">
 .halaman-esai {
   max-width: 600px;
   margin: 0 auto;
